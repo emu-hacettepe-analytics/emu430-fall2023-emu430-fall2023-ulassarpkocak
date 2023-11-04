@@ -8,8 +8,9 @@ sidebar: false
 -   B.S., Industrial Engineering, Hacettepe University, Turkey, 2023 - ongoing.
 
 # Work Experience
--  ROKETSAN summer internship (2022)
--  GEMAK FOOD INDUSTRY MACHINES summer internship (2023)
+
+-   ROKETSAN summer internship (2022)
+-   GEMAK FOOD INDUSTRY MACHINES summer internship (2023)
 
 ## Employements
 
@@ -27,8 +28,8 @@ R, Quarto, Git, Python, Solidworks
 
 # Hobbies
 
-Billard, driving, Fitness, Guitar 
+Billard, driving, Fitness, Guitar
 
-# CV 
+# CV
 
 https://drive.google.com/file/d/1vHzOCOGdwEFCUanOz0qBnW42BVgdDUWT/view?usp=sharing
