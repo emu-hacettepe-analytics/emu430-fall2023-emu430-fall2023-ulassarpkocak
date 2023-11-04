@@ -10,6 +10,56 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-## (a)
+## (a) 
+In this short video, the process of deploying a Shiny for Python application from Posit Workbench is explained. The narrator is using VS Code for Posit Connect. They have a Shiny for Python application named "app.py" in their directory.
+
+To get started, they mention that you need to install some packages for this workflow. They use pip to install the Shiny package and rsconnect-python for deploying the applications. Additionally, they mention that the application depends on two popular data science packages, matplotlib and numpy, and ensure that these packages are installed.
+
+Before deploying, they emphasize the importance of making sure the application works correctly locally. They run the Shiny application and obtain a URL, which leads to their Shiny for Python application. The application includes a simple slider that changes the number of boxes in a histogram as you slide it.
+
+The final step is deploying the application to Posit Connect using the rsconnect package. They specify the Connect server's name using the -n argument and provide the directory containing "app.py." The deployment process involves capturing and saving the environment, then sending it to Connect for deployment. After the deployment is complete, they receive two URLs, with one taking them directly to Posit Connect, where they can see the application running in a Connect instance.
+
+In summary, the video demonstrates how to deploy a Shiny for Python application using Posit Connect, from package installation to local testing and final deployment on Posit Connect.
 
 ## (b)
+1. R: Apply, lapply, and sapply are just a few of the functions that are used in R's functional programming language to manipulate data. R code is frequently written in a more vectorized and succinct manner.
+Python: Python employs an imperative, more general-purpose programming paradigm. It defines code chunks using indentation, or whitespace, and places a strong emphasis on readability with a consistent and straightforward grammar.
+
+Example in R:
+
+data <- c(1, 2, 3, 4, 5)
+squared_data <- lapply(data, function(x) x^2)
+
+Example in Python:
+
+data = [1, 2, 3, 4, 5]
+squared_data = [x**2 for x in data]
+
+2. R: R provides factors and data frames, which are specific data formats for data analysis. Because data frames and database tables are comparable, working with structured data is simple.
+Python: Python is a versatile language for a wide range of applications, not just data analysis, thanks to its more varied built-in data structures, which include lists, dictionaries, and sets.
+
+Example in R:
+
+df <- data.frame(Name = c("Alice", "Bob", "Charlie"),
+                 Age = c(25, 30, 35))
+
+Example in Python:
+
+data = [{"Name": "Alice", "Age": 25},
+        {"Name": "Bob", "Age": 30},
+        {"Name": "Charlie", "Age": 35}]
+
+3. R: R offers many specialized programs for data analysis, like "lubridate" for working with dates and "tidyverse" (containing dplyr, ggplot2, and tidyr). These packages offer strong data visualization and manipulation tools.
+Python: NumPy, Pandas, Matplotlib, SciPy, and other data analysis packages are available in Python. These libraries offer extensive capabilities for a range of scientific and technical activities, not just data analysis.
+
+Example in R:
+
+library(dplyr)
+filtered_data <- df %>% filter(Age > 30)
+
+Example in Python:
+
+import pandas as pd
+df = pd.DataFrame(data)
+filtered_data = df[df['Age'] > 30]
+
