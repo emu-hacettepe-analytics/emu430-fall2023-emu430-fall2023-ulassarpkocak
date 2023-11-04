@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -248,9 +248,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>My first assignment has two parts.</p>
 <section id="a" class="level2">
 <h2 class="anchored" data-anchor-id="a">(a)</h2>
+<p>In this short video, the process of deploying a Shiny for Python application from Posit Workbench is explained. The narrator is using VS Code for Posit Connect. They have a Shiny for Python application named “app.py” in their directory.</p>
+<p>To get started, they mention that you need to install some packages for this workflow. They use pip to install the Shiny package and rsconnect-python for deploying the applications. Additionally, they mention that the application depends on two popular data science packages, matplotlib and numpy, and ensure that these packages are installed.</p>
+<p>Before deploying, they emphasize the importance of making sure the application works correctly locally. They run the Shiny application and obtain a URL, which leads to their Shiny for Python application. The application includes a simple slider that changes the number of boxes in a histogram as you slide it.</p>
+<p>The final step is deploying the application to Posit Connect using the rsconnect package. They specify the Connect server’s name using the -n argument and provide the directory containing “app.py.” The deployment process involves capturing and saving the environment, then sending it to Connect for deployment. After the deployment is complete, they receive two URLs, with one taking them directly to Posit Connect, where they can see the application running in a Connect instance.</p>
+<p>In summary, the video demonstrates how to deploy a Shiny for Python application using Posit Connect, from package installation to local testing and final deployment on Posit Connect.</p>
 </section>
 <section id="b" class="level2">
 <h2 class="anchored" data-anchor-id="b">(b)</h2>
+<ol type="1">
+<li>R: Apply, lapply, and sapply are just a few of the functions that are used in R’s functional programming language to manipulate data. R code is frequently written in a more vectorized and succinct manner. Python: Python employs an imperative, more general-purpose programming paradigm. It defines code chunks using indentation, or whitespace, and places a strong emphasis on readability with a consistent and straightforward grammar.</li>
+</ol>
+<p>Example in R:</p>
+<p>data &lt;- c(1, 2, 3, 4, 5) squared_data &lt;- lapply(data, function(x) x^2)</p>
+<p>Example in Python:</p>
+<p>data = [1, 2, 3, 4, 5] squared_data = [x**2 for x in data]</p>
+<ol start="2" type="1">
+<li>R: R provides factors and data frames, which are specific data formats for data analysis. Because data frames and database tables are comparable, working with structured data is simple. Python: Python is a versatile language for a wide range of applications, not just data analysis, thanks to its more varied built-in data structures, which include lists, dictionaries, and sets.</li>
+</ol>
+<p>Example in R:</p>
+<p>df &lt;- data.frame(Name = c(“Alice”, “Bob”, “Charlie”), Age = c(25, 30, 35))</p>
+<p>Example in Python:</p>
+<p>data = [{“Name”: “Alice”, “Age”: 25}, {“Name”: “Bob”, “Age”: 30}, {“Name”: “Charlie”, “Age”: 35}]</p>
+<ol start="3" type="1">
+<li>R: R offers many specialized programs for data analysis, like “lubridate” for working with dates and “tidyverse” (containing dplyr, ggplot2, and tidyr). These packages offer strong data visualization and manipulation tools. Python: NumPy, Pandas, Matplotlib, SciPy, and other data analysis packages are available in Python. These libraries offer extensive capabilities for a range of scientific and technical activities, not just data analysis.</li>
+</ol>
+<p>Example in R:</p>
+<p>library(dplyr) filtered_data &lt;- df %&gt;% filter(Age &gt; 30)</p>
+<p>Example in Python:</p>
+<p>import pandas as pd df = pd.DataFrame(data) filtered_data = df[df[‘Age’] &gt; 30]</p>
 
 
 </section>
