@@ -5,7 +5,7 @@ sidebar: false
 
 Hello! My name is Ulaş Sarp Koçak.
 
-This is my personal webpage.
+This is my personal webpage...
 
 Please stay tuned to follow my works on data analytics, blog posts, and more.
 
