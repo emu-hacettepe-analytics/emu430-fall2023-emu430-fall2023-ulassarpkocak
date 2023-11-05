@@ -24,7 +24,7 @@ sidebar: false
 
 # Competencies
 
-R, Quarto, Git, Python, Solidworks
+R, Quarto, Git, Python, Solidworks.
 
 # Hobbies
 
